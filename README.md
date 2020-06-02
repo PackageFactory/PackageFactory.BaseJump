@@ -40,7 +40,7 @@ class ExampleController extends BaseJumpController
      */
     public function exampleAction (ActionRequest $request, ActionResponse $response): ?ResponseInterface
     {
-        return = new Response(
+        return new Response(
             200,
             ['x-foo' => 'bar'],
             'action result'
